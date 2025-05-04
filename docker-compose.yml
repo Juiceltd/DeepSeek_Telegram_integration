@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./info:/app/info
+      - ${OPEN_CLOUD_PATH}:/app/pages
+    env_file:
+      - .env
+    restart: always

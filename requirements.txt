@@ -1,0 +1,9 @@
+aiofiles
+aiohttp
+gigachat
+Markdown
+openai
+pyTelegramBotAPI
+langchain-gigachat
+python-dotenv
+aioredis
